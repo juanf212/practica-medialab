@@ -1,0 +1,48 @@
+.padre {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.titulos {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.ayuntamiento {
+  grid-column: 3;
+}
+
+.logobusqueda {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+  padding: 10px 0;
+}
+
+.busqueda {
+  grid-column: 3;
+  text-align: end;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: solid 3px black;
+}
+
+.menu div {
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 430;
+}
+
+.menu a:hover {
+  color: grey;
+}

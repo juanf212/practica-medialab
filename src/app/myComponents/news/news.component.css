@@ -1,0 +1,30 @@
+.padre {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 20px;
+  padding-bottom: 70px;
+  border-bottom: solid 2px black;
+}
+
+.image {
+  border: solid 2px black;
+}
+
+.content {
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 3.2em;
+  color: #404040;
+}
+
+.date {
+  color: grey;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.text {
+  font-size: 1.1em;
+  color: #333;
+}
